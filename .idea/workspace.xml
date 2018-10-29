@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f08214e-bb8b-4516-8ea4-465d595e9eec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/imports/api/contact/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/imports/api/contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/imports/api/contact/stuff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/imports/startup/server/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/imports/ui/components/ContactAdmin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/imports/ui/pages/ListContactsAdmin.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/startup/both/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/startup/both/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/startup/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/startup/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/api/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/api/contact/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/api/contact/stuff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/startup/server/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/startup/server/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +21,15 @@
     <session id="2087622696">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,9 +37,9 @@
           <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="6" />
+          <entry key="js" value="13" />
           <entry key="json" value="2" />
-          <entry key="jsx" value="6" />
+          <entry key="jsx" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -48,8 +47,8 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JSX Harmony" value="6" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JSX Harmony" value="8" />
+          <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -58,9 +57,9 @@
           <entry key="css" value="133" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="29" />
-          <entry key="js" value="179" />
+          <entry key="js" value="241" />
           <entry key="json" value="81" />
-          <entry key="jsx" value="972" />
+          <entry key="jsx" value="1139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -68,14 +67,14 @@
           <entry key="CSS" value="133" />
           <entry key="HTML" value="29" />
           <entry key="JSON" value="81" />
-          <entry key="JSX Harmony" value="972" />
-          <entry key="JavaScript" value="179" />
+          <entry key="JSX Harmony" value="1139" />
+          <entry key="JavaScript" value="241" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="6" />
+          <entry key="ESLintLanguageService" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -83,51 +82,34 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/imports/api/contact/index.js">
+        <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/imports/startup/server/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="315">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/imports/startup/server/index.js">
+        <entry file="file://$PROJECT_DIR$/app/imports/api/contact/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings.development.json">
+        <entry file="file://$PROJECT_DIR$/app/imports/ui/components/ContactAdmin.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListStuffAdmin.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-283">
+            <state relative-caret-position="405">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -136,10 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx">
+        <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContactsAdmin.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="-74">
+              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -183,13 +165,15 @@
         <option value="$PROJECT_DIR$/app/imports/ui/components/Contacts.jsx" />
         <option value="$PROJECT_DIR$/app/imports/ui/components/Contact.jsx" />
         <option value="$PROJECT_DIR$/app/imports/api/contact/stuff.js" />
-        <option value="$PROJECT_DIR$/app/imports/api/contact/contact.js" />
         <option value="$PROJECT_DIR$/app/imports/api/contact/index.js" />
+        <option value="$PROJECT_DIR$/app/imports/startup/server/index.js" />
+        <option value="$PROJECT_DIR$/app/imports/api/contact/contact.js" />
         <option value="$PROJECT_DIR$/app/imports/startup/both/index.js" />
         <option value="$PROJECT_DIR$/app/imports/startup/server/contact.js" />
-        <option value="$PROJECT_DIR$/app/imports/startup/server/index.js" />
-        <option value="$PROJECT_DIR$/config/settings.development.json" />
         <option value="$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx" />
+        <option value="$PROJECT_DIR$/config/settings.development.json" />
+        <option value="$PROJECT_DIR$/app/imports/ui/components/ContactAdmin.jsx" />
+        <option value="$PROJECT_DIR$/app/imports/ui/pages/ListContactsAdmin.jsx" />
       </list>
     </option>
   </component>
@@ -204,6 +188,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/app/.meteor/local/build/programs/server/node_modules" />
@@ -2214,10 +2204,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="23" />
-    <option name="width" value="1182" />
-    <option name="height" value="770" />
+    <option name="x" value="412" />
+    <option name="y" value="60" />
+    <option name="width" value="1036" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2851,7 +2841,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -2859,6 +2849,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -2896,7 +2887,47 @@
               <item name="digits" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digits" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="stuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digits" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
               <item name="startup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digits" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
+              <item name="both" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digits" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digits" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digits" type="b2602c69:ProjectViewProjectNode" />
@@ -2938,7 +2969,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2946,7 +2976,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540550542104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540815867338" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -2962,10 +2992,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/imports/ui/pages" />
+      <recent name="$PROJECT_DIR$/app/imports/ui/components" />
       <recent name="$PROJECT_DIR$/app/imports/startup/server" />
       <recent name="$PROJECT_DIR$/app/imports/api" />
-      <recent name="$PROJECT_DIR$/app/imports/ui/components" />
-      <recent name="$PROJECT_DIR$/app/imports/ui/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2997,17 +3027,18 @@
       <workItem from="1540369054154" duration="2759000" />
       <workItem from="1540454473514" duration="499000" />
       <workItem from="1540545089509" duration="4707000" />
+      <workItem from="1540601525328" duration="4121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14046000" />
+    <option name="totallyTimeSpent" value="18190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="23" width="1182" height="770" extended-state="0" />
+    <frame x="412" y="60" width="1036" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.25701755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.30482897" />
       <window_info id="Structure" order="1" sideWeight="0.5014749" side_tool="true" weight="0.25701755" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -3033,7 +3064,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.37117472" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3053,66 +3084,42 @@
     <entry file="file://$PROJECT_DIR$/app/imports/ui/components/NavBar.jsx" />
     <entry file="file://$PROJECT_DIR$/app/client/main.js" />
     <entry file="file://$PROJECT_DIR$/app/imports/ui/layouts/App.jsx" />
-    <entry file="file://$PROJECT_DIR$/app/imports/api/contact/stuff.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/api/contact/contact.js">
+    <entry file="file://$PROJECT_DIR$/app/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListStuffAdmin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/api/contact/stuff.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/imports/startup/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/startup/server/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/startup/both/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/imports/api/contact/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="22" />
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListStuffAdmin.jsx">
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -3121,15 +3128,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings.development.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="383">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContacts.jsx">
+    <entry file="file://$PROJECT_DIR$/app/imports/startup/server/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/startup/both/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/api/contact/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/components/ContactAdmin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/ListContactsAdmin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
         </state>
       </provider>
     </entry>
